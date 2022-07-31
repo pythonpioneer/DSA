@@ -12,7 +12,7 @@ void findOddOccuring(int *arr, int arrLen){
             oddOcrEle ^= arr[index];
         }
 
-        // now we have odd occuring element
+        // now we have odd occuring element 
         std :: cout << oddOcrEle << std :: endl;
 }
 
