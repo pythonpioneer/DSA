@@ -1,0 +1,25 @@
+
+Total execution time: 12
+Total idle time: 1
+Process Info(
+	Arrival Time: 1
+	Burst Time: 2
+	Waiting Time: 0
+)
+Process Info(
+	Arrival Time: 2
+	Burst Time: 4
+	Waiting Time: 1
+)
+Process Info(
+	Arrival Time: 2
+	Burst Time: 2
+	Waiting Time: 5
+)
+Process Info(
+	Arrival Time: 3
+	Burst Time: 3
+	Waiting Time: 6
+)
+
+// end
