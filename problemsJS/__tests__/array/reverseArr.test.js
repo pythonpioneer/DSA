@@ -1,8 +1,6 @@
-// import { reverseArr } from "../../array/reverseArr";
+const { reverseArr } = require('../../array/reverseArr');
 
-const reverseArr = (arr, n) => {
-    return [3, 4, 5, 6, 1, 2];
-}
+
 // testing the reverse array function
 describe('Testing reverseArr funcion', () => {
 
