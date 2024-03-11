@@ -10,7 +10,7 @@ describe('Testing find value method', () => {
         const expectedOutput = 3;
         const actualOutput = findValue(arr, key);
 
-        expect(actualOutput).toBe(expectedOutput);
+        expect(actualOutput).toEqual(expectedOutput);
     });
 
     test('Unique array with key present', () => {
