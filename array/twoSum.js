@@ -10,7 +10,7 @@ const twoSum = (arr, val) => {
         else if ((arr[i] + arr[j]) > val) j--;
         else i++;
     }
-    return [-1]
+    return [-1];
 }
 
 module.exports = { twoSum };
