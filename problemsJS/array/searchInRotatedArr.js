@@ -28,7 +28,6 @@ const findValue = (arr, key) => {
 
     if (index === -1) {
         index = bs(arr, pivot + 1, arr.length, key);
-        console.log("rbs")
     }
     return index;
 }
