@@ -1,3 +1,4 @@
+// remove duplicate elements from the sorted array and return the new array with the pointer to last unique elements
 const removeDuplicate = (arr) => {
 
     let i = 1, j = 0;
@@ -9,7 +10,6 @@ const removeDuplicate = (arr) => {
             arr[j] = arr[i];
         }
     }
-    console.log(j)
     return { array: arr, right: j }
 }
 
